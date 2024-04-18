@@ -5,7 +5,7 @@ import SignupPage from './SignupPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/collector-app">
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
