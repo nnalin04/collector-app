@@ -1,0 +1,14 @@
+.perspective-wrapper1 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  perspective: 800px; /* Depth of 3D effect */
+  border: 1px solid #8b2626; /* Optional border for visual clarity */
+}
+
+.rotating-item1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(25, 25, 167); /* Circular item for visibility */
+  border-radius: 50%; /* Circular shape */
+}

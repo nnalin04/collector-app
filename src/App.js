@@ -1,17 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import SignupPage from './SignupPage';
+import Spiral from "./Spiral";
+import UploadItem from "./components/UploadItem";
+import logo from "./logo.svg";
+import OneItem from "./one-item/oneItem";
+// import './App.css';
+// import "./rotateItems.css";
 
 function App() {
   return (
-    <Router basename="/collector-app">
-      <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/signup" element={<SignupPage />} />
-      </Routes>
-    </Router>
+    <div className="app">
+      <UploadItem />
+    </div>
   );
+
+  // const height = 300;
+  // return <Spiral />;
+  // return <OneItem height={height} />;
 }
 
 export default App;
